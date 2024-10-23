@@ -1,0 +1,262 @@
+<html>
+    <head>
+<title>vinay jadaun's personal portfolio</title>
+<link rel="stylesheet" href="style.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+  </style>
+    </head>
+    <body>
+        <div id="preloader"></div>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="logov.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#myServices">SERVICE</a></li>
+                        <li><a href="#portfolio">PORTFOLIO</a></li>
+                        <li><a href="#contact-me">CONTACT ME</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>MERN-STACK Developer</p>
+                    <h1>Hi, I'm <span>Vinay</span> <br>Jadaun from Bhopal</h1>
+                </div>
+            </div>
+        </div>
+        <!-------------about------------>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                      <img src="v6.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Highly skilled MERN Stack Developer with building dynamic and performant web applications. Proficient in JavaScript, React.js, Node.js, and MongoDB, with a strong understanding of full-stack development principles. Adept at designing and implementing elegant solutions that prioritize user experience and scalability.</p>
+                            <div class="tab-title">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills" >
+                                <ul>
+                                    <li><span>UI/UX</span><br>Adobe xd designer</li>
+                                    <li><span>app development</span><br>android developer/designer</li>
+                                    <li><span>web-development</span><br>MERN STACK web application developer</li>
+                                    <li><span>Video/graphic Editor</span><br>Expertise in video Editing</li>
+                                    <li><span>Blender-expert</span><br>3-D graphics model creator</li>
+                                    <li><span>Programmer</span><br>C++,Java,python,batch</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>IBM</span><br>virtual intership </li>
+                                    <li><span>Globe4Education website designing and deployment</span><br>worked with globe4education as an web-designer </li>
+                                    <li><span>STANDARD BANK</span><br>virtual internship</li>
+                                    <li><span>WALMART</span><br>virtual internship</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>SECONDARY SCHOOL CERTIFICATE</span><br>DM co-ed hr-sec BHOPAL</li>
+                                    <li><span>HIGHER SECONDARY CERTIFICATE</span><br>SUBHASH HR-SE SCHOOL FOR EXCELLENCE BHOPAL</li>
+                                    <li><span>BACHELOR OF TECHNOLOGY(computer science)</span><br>TECHNOCRATS INSTITUTE OF TECHNOLOGY(EXCELLENCE)</li>
+                                </ul>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------my services----------------->
+        <div id="myServices">
+            <div class="container">
+                <h1 class="sub-title">My Services
+                </h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web-designer</h2>
+                        <p>Innovative web designer with a keen eye for aesthetics, transforming visions into captivating and user-centric digital experiences.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>Android developer</h2>
+                        <p>Highly skilled Android Developer with a proven track record of creating innovative and user-friendly mobile applications.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div >
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX</h2>
+                        <p>
+                            Creative and user-centric UI/UX designer with a passion for crafting intuitive and visually captivating digital experiences.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    
+                    
+                   
+                </div>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-closed-captioning"></i>
+                        <h2>Video Editing(premior pro/after effect)</h2>
+                        <p>Accomplished Premiere Pro Editor with a keen eye for detail and a proven track record of crafting engaging visual experiences.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code-branch"></i>
+                        <h2>Programmer</h2>
+                        <p>
+                            Versatile programmer with expertise in C++, Python, and Java, adept at designing and implementing efficient and scalable solutions for diverse projects.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div >
+                        <i class="fa-brands fa-unity"></i>
+                        <h2>3-D graphic modeling</h2>
+                        <p>Accomplished 3-D Graphic Modeling Specialist with expertise in creating stunning visual assets and immersive experiences for diverse applications.
+
+
+
+
+
+                          </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    
+                    
+                   
+                </div>
+               
+               
+            </div>
+        </div>
+        <!--------portfolio------------->
+
+        <div id="portfolio">
+            <div class="container">
+                <div class="sub-title">My Work</div>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="work-1.png">
+                        <div class="layer">
+                            <h3>AI integrated voice assistant</h3>
+                            <p>With the help of python power of module and AI apis i created an ai voice assistant</p>
+                            <a href="#"><i class="fa-solid fa-share-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work-2.png">
+                        <div class="layer">
+                            <h3>Android applications</h3>
+                            <p>An an Android dev(kotlin) i create interactive user experience application.</p>
+                            <a href="#"><i class="fa-solid fa-share-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work-3.png">
+                        <div class="layer">
+                            <h3>E-commerce website designing</h3>
+                            <p>I am an MERN stack developer who can create and deploy dynamic nature web apps</p>
+                            <a href="#"><i class="fa-solid fa-share-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                 <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <!----------------------contact me----------------->
+        <div id="contact-me">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                          <h1 class="sub-title">Contact Me</h1>
+                          <p><i class="fa-regular fa-paper-plane"></i> Contact@vinay11112003@gmail.com</p>
+                          <p><i class="fa-thin fa-phone"></i> +91-8962671738</p>
+                          <div class="social-icon">
+                            <a href="https://wa.me/8962671738"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://www.linkedin.com/in/vinay-jadaun-28193b25b/"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://www.instagram.com/vinay_jadaun_011/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-threads"></i></a>
+                          </div>
+                          <a href="https://drive.google.com/file/d/1ELXt-UpAePWaIIX256zl-xM-BLkOEdpt/view?usp=sharing" downlaod class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                             <Form name="submit-to-google-sheet">
+                                <input type="Text" name="Name" placeholder="YOUR NAME" required>
+                                <input type="Email" name="Email" placeholder="YOUR EMAIL" required>
+                                <textarea name="Message" rows="6" placeholder="YOUR MESSAGE"></textarea>
+                                <button type="submit" class="btn btn2">SUBMIT</button>
+                             </Form>
+                             <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+
+
+
+        <div>
+  <div class="copyright">
+    <p>copyright @ vinay jadaun  <i class="fa-regular fa-heart"></i></p>
+  </div>
+        </div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200";
+    }
+</script>
+<script src="https://kit.fontawesome.com/ede265246a.js" crossorigin="anonymous"></script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyxSTLtWnQDw25kMHKJYZozYqQuM2lyooxL4SFFirIhlDm0nZNcsBAK6mquo3yLV9HM/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message successfully sended";
+            setTimeout(function(){
+                msg.innerHTML="";
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script>
+    var preloader = document.getElementById("preloader");
+    window.addEventListener("load", function(){
+        preloader.style.display="none";
+    }
+    )
+
+  </script>
+      </body>
+</html>
