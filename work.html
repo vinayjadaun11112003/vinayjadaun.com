@@ -62,7 +62,7 @@
                         <div class="layer">
                             <h3>Immensifyy-The E-learning platform</h3>
                             <p>Immensifyy-The E-learning platform with Ai-Interview feature,1-1 Private room creation,and with real time payment system.</p>
-                            <a href="LMS-Immensifyy.vercel.app"><i class="fa-solid fa-share-from-square"></i></a>
+                            <a href="https://LMS-Immensifyy.vercel.app"><i class="fa-solid fa-share-from-square"></i></a>
                         </div>
                     </div>
                     <div class="work">
@@ -154,6 +154,24 @@
             <p>copyright @ vinay jadaun  <i class="fa-regular fa-heart"></i></p>
           </div>
                 </div>
+
+                <script>
+                    const scriptURL = 'https://script.google.com/macros/s/AKfycbyxSTLtWnQDw25kMHKJYZozYqQuM2lyooxL4SFFirIhlDm0nZNcsBAK6mquo3yLV9HM/exec'
+                    const form = document.forms['submit-to-google-sheet']
+                  
+                    form.addEventListener('submit', e => {
+                      e.preventDefault()
+                      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                        .then(response => {
+                            msg.innerHTML="Message successfully sended";
+                            setTimeout(function(){
+                                msg.innerHTML="";
+                            },5000)
+                            form.reset()
+                        })
+                        .catch(error => console.error('Error!', error.message))
+                    })
+                  </script>
         <script src="https://kit.fontawesome.com/ede265246a.js" crossorigin="anonymous"></script>
     </body>
 </html>
